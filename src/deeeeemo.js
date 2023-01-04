@@ -3,7 +3,7 @@
 
 //typescript transpila y transforma los archivos ts a js
 
-//npx tsc --init
+//'npx tsc --init'
 //Con este comando generamos automáticamente nuestro archivo TSConfig.json
 
 //npx tsc
@@ -13,6 +13,24 @@
 //Este comando es para que me haga una transpilación de manera reactiva, cada vez que guarde un archivo .ts que
 //hubiera sufrido cambios, acá me transpila todo a archivos .js
 
+//npx tsc archivo_typescript.ts
+//Aca transpilas un archivo que tu especifiques
+
+//npx tsc archivo_typescript.ts --target es6
+//Acá haces una compilación a una versión específica
+
+//npx tsc archivo_typescript.ts --target es6 --outDir carpeta_destino
+//Enviando compilación a una carpeta
+
+//npx tsc *.ts --target es6 --outDir carpeta_destino
+//deseas aplicar la anterior operación a todos los archivos con extensión TypeScript
+
+/*Deno: un entorno nativo para ambos lenguajes
+Deno, del mismo creador de Node.js, es un nuevo entorno de ejecución para JavaScript que puede correr también nativamente TypeScript. Sin embargo, aún no tiene la madurez en el ecosistema de Node.js*/
+
+
+//node src/hello.js
+//Ejecuto el archivo js
 
 (async ()=> {
   const myCart = [];
