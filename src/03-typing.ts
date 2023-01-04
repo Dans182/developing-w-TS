@@ -13,7 +13,7 @@ Nos señalará como error pues se le quiere asignar un número a una variable de
 //Puedo especificar el tipo de dato o puede inferirlo e indicarlo automáticamente typescript.
 //Todo esto haciendo uso de "var" o "let"
 
-//Esto a continuación es una función anónima autoejecutable.
+//Esto a continuación es una función anónima autoejecutable. IIFE (Immediately Invoked Function Expression)
 /* (() => {
 })(); */
 /*Nombres de variables iguales
