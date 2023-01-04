@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Dans182/developing-w-TS/issues"
   },
-  "homepage": "https://github.com/Dans182/developing-w-TS#readme"
+  "homepage": "https://github.com/Dans182/developing-w-TS#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
 }
