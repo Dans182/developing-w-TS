@@ -1,3 +1,6 @@
+//@ts-check
+//Uso el ts-check, para que usando ts me analice el fichero javascript
+
 (async ()=> {
   const myCart = [];
   const products = [];
