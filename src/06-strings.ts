@@ -6,7 +6,7 @@
   productTitle = 'My amazing product changed';
   console.log('productTitle', productTitle);
 
-  const productDescription = "I'm bla bla bla bla";
+  let productDescription: string = "I'm bla bla bla bla";
   console.log('productDescription', productDescription);
 
   let productPrice = 100;
@@ -20,5 +20,6 @@
   console.log(summary);
 
   //El backtick `` me sirve no solo para indicar un string, aparte de "" y '', sino que te permite hacer concatenaciones (interpolación) y a su vez te
-  //permite escribir strings en multiples líneas.
+  //permite escribir strings en multiples líneas y respeta la indentación.
+  //Tomar nota que la buena práctica es escribir "string" y no "String"
 })();
