@@ -17,4 +17,11 @@
   mixed.push([]);
   //Los objetos engloban tantoa a los arrays([]), como a los objetos propiamente ({}).
   console.log(mixed);
+
+  let numbers = [9, 8, 7, 6, 5, 4, 3, 2, 1];
+  numbers.map((item) => item * 2);
+
+  // let numbers2 = ["hola", "chao"];
+  // numbers2.map((item) => item * 2);
+  //Acá te arroja error porque entiende que el método de arrays map, en este caso es para multiplicar números. No se pueden multiplicar strings.
 })();
