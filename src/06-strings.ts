@@ -9,8 +9,16 @@
   const productDescription = "I'm bla bla bla bla";
   console.log('productDescription', productDescription);
 
-  const summary = `Hello
-  my name
-  is
-  Daniel`;
+  let productPrice = 100;
+  let isNew: boolean = false;
+
+  const summary = `
+  title: ${productTitle}
+  description: ${productDescription}
+  price: ${productPrice}
+  isNew: ${isNew}`;
+  console.log(summary);
+
+  //El backtick `` me sirve no solo para indicar un string, aparte de "" y '', sino que te permite hacer concatenaciones (interpolación) y a su vez te
+  //permite escribir strings en multiples líneas.
 })();
