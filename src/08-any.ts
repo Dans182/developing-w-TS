@@ -8,4 +8,12 @@
   //Porque le decimos que esa variable puede ser cualquier tipo de dato en
   //esa variable en particular.
   //Se aconseja que any no se use.
+
+  myDinamicVar = 'Hola';
+  const rta = (myDinamicVar as string).toLowerCase();
+  console.log(rta);
+
+  myDinamicVar = 123456;
+  const rta2 = (<number>myDinamicVar).toFixed();
+  console.log(rta2);
 })();
