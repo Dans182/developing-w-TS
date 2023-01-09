@@ -20,4 +20,8 @@
     }
   }
   greeting(11111, 'L');
+
+  /*Los Alias nos permiten darle un nombre a uno o varios tipos de datos en conjunto. Un ejemplo de como se definen sería así:
+¡Ahora UserID lo podemos usar como si fuese un tipo de dato string, boolean o number!
+Los Union Types que vayamos a utilizar ahora serán menos tediosos de escribir, pues con los Alias podemos utilizar el mismo conjunto de tipos de datos en la definición de varias variables, beneficiándonos en escribir menos código.*/
 })();
