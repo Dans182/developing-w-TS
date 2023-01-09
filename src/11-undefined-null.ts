@@ -13,4 +13,24 @@
   let myString: string | undefined;
   myString = 'hola';
   myString = undefined;
+
+  function hi(name: string | null) {
+    let hello = 'Hola ';
+    if (name) {
+      hello += name;
+    } else {
+      hello += 'nobody';
+    }
+    console.log(hello);
+  }
+  hi('Daniel');
+  hi(null);
+
+  function hiV2(name: string | null) {
+    let hello = 'Hola ';
+    hello += name?.toLowerCase() || 'nobody';
+    console.log(hello);
+  }
+  hi('Daniel');
+  hi(null);
 })();
