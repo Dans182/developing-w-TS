@@ -12,4 +12,21 @@
     console.log(data.email, data.password);
   };
   login2({ email: 'dans@gmail.com', password: 123121312 });
+
+  type sizes = 'S' | 'M' | 'L' | 'XL' | 'XXL';
+  const products: any[] = [];
+
+  const addProduct = (data: {
+    title: string;
+    createdAd: Date;
+    stock: number;
+    size?: sizes;
+  }) => {
+    products.push(data);
+  };
+  addProduct({
+    title: 'Prod1',
+    createdAd: new Date(2010, 1, 1),
+    stock: 12,
+  });
 })();
