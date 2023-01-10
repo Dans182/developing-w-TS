@@ -1,5 +1,5 @@
 (() => {
-  const calcTotal = (prices: number[]) => {
+  const calcTotal = (prices: number[]): number => {
     let total = 0;
     prices.forEach((item) => {
       total += item;
