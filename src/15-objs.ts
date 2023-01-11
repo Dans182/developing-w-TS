@@ -37,4 +37,27 @@
     size: "L",
   });
 
+
+/*En TypeScript también podemos usar los Alias para definir la estructura de tipado que debería tener un objeto:
+type userData = {
+  username: string,
+   email: string
+}
+Y luego este “nuevo tipo” puede ser usado en un array, por ejemplo, para definir el tipado de los objetos que queramos añadir:
+type userData = {
+  username: string,
+  email: string
+}
+
+let usersList: userData[] = [];
+
+usersList.push({
+  username: "freddier", //CORRECTO
+  email: "freddy@email.com", //CORRECTO
+});
+usersList.push({
+  username: "cvander", //CORRECTO
+  email: true, // ERROR. Debe ser de tipo string y NO de tipo boolean
+});*/
+
 })();
