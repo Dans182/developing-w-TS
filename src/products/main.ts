@@ -13,4 +13,6 @@ addProduct({
   size: 'L',
 });
 
-console.log(products)
+console.log(products);
+const total = calcStock();
+console.log(total);
