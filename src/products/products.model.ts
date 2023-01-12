@@ -13,3 +13,8 @@ export type product = {
   stock: number;
   size?: sizes;
 };
+
+//Nuestro código puede ser dividido en varios módulos
+//(archivos), por lo que para poder usar las funciones o
+//variables que existen en uno y queramos acceder desde otro,
+//utilizamos import y export.
