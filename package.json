@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Dans182/developing-w-TS#readme",
   "devDependencies": {
+    "@types/lodash": "^4.14.191",
     "typescript": "^4.9.4"
   },
   "dependencies": {
