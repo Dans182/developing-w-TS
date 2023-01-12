@@ -1,7 +1,15 @@
 import { product } from './products.model';
 
-const products: product[] = [];
+export const products: product[] = [];
 
-const addProduct = (data: product) => {
+export const addProduct = (data: product) => {
   products.push(data);
+};
+
+export const calcStock = (): number => {
+  let total = 0;
+  products.forEach((item) => {
+    total += item.stock;
+  });
+  return total;
 };
