@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Dans182/developing-w-TS#readme",
   "devDependencies": {
     "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "date-fns": "^2.29.3"
   }
 }
